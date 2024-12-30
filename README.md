@@ -1,5 +1,9 @@
 # fMRI-Localizer
-These scripts are adapted from my previous project, retaining only the core elements to serve as a foundation for analyzing a new fMRI project. Specifically, the dataset used here is derived from a localizer task in an fMRI experiment.
+These scripts are adapted from my previous project, retaining only the core elements to serve as a foundation for analyzing a new fMRI project. 
+
+The dataset used here is derived from a localizer task in an fMRI experiment. Specifically, they are collected from a senior named Anya and stored on "Super Computer 2" (a desktop located in 609-3). However, for some reason, E-DataAid files for many participants are missing or incomplete. Consequently, I selected data from only two participants to ensure that the scripts could run as intended.
+
+The following outlines the procedures along with some accompanying footnotes.
 
 ## 1. Organize the excel (.txt) files export from E-DataAid files into event.tsv files.
    Execute `python Gen_localizer_timing.py $sid`
