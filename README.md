@@ -1,7 +1,7 @@
 # fMRI-Localizer
 These scripts are adapted from my previous project, retaining only the core elements to serve as a foundation for analyzing a new fMRI project. 
 
-The dataset processed by the scripts is derived from a localizer task in an fMRI experiment. Specifically, they are collected from a senior named Anya and stored on "Super Computer 2" (a desktop located in 609-3). However, for some reason, E-DataAid files for many participants are missing or incomplete. Consequently, I selected data from only two participants to ensure that the scripts could run as intended.
+The dataset processed by the scripts is derived from a localizer task in an fMRI experiment. Specifically, they are collected from a senior named Anya and stored on "Super Computer 2" (a desktop located in 609-3). However, for some reason, E-DataAid files for many participants are missing or incomplete. Consequently, I selected data from only two participants (namely, 005 and 307) to ensure that the scripts could run as intended.
 The dataset is, of course, not uploaded here (GitHub).
 
 The following outlines the procedures along with some footnotes.
