@@ -3,8 +3,6 @@
 top_dir=/media/data2/pinwei/Testing_Localizer/Nifti
 prep_dir=$top_dir/derivatives/fMRIPrep
 
-# sudo chmod -R 777 $prep_dir
-
 cd $prep_dir/sub-$1/func;
 
 if [ ! -d Masks ]; then mkdir Masks; mv *desc-brain_mask* Masks; fi

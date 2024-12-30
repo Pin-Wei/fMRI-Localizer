@@ -9,13 +9,14 @@ sid = sys.argv[1]
 
 top_dir = os.path.join("/media", "data2", "pinwei", "Testing_Localizer")
 data_dir = os.path.join(top_dir, "Localizer_EDat") 
-output_dir = os.path.join(top_dir, "Nifti", f"sub-{sid:02d}", "func")
+output_dir = os.path.join(top_dir, "Nifti", f"sub-{sid}", "func")
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
-data_name = f"longlocalizercalib_chinese2013-{sid:02d}-1_edat.txt"
-# data_name = f"longlocalizercalib_chinese2013_updated-{sid:03d}-1.txt"
-output_name = f"sub-{sid:02d}_task-localizer_events.tsv"
+data_name = f"longlocalizercalib_chinese2013_{sid}-1_edat.txt"
+    # depends on how the Excel files, manually exported from E-DataAid, are named.
+
+output_name = f"sub-{sid}_task-localizer_events.tsv"
 
 # --------------------------------------------------------------------------
 data = pd.read_table(
