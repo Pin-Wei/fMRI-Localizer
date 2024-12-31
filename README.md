@@ -25,8 +25,8 @@ The following outlines the procedures along with some footnotes.
 
 ## 4. Intermediate steps before performing individual-level analysis.
    Execute 
-   `bash Tidy_fmriprep_outs.sh $sid`
-   `bash Make_timings.sh $sid`
+   `bash Tidy_fmriprep_outs.sh $sid`, 
+   `bash Make_timings.sh $sid`, and
    `bash Modify_confounds.sh $sid`
    The purpose of each script can be known by its name.
 
