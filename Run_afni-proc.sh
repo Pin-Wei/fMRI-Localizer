@@ -13,7 +13,7 @@ set top_dir  = /media/data2/pinwei/Testing_Localizer/Nifti
 set script_dir = $top_dir/derivatives/afni_proc_scripts
 if ( ! -d $script_dir ) mkdir $script_dir
 
-set output_dir = $top_dir/derivatives/AFNI
+set output_dir = $top_dir/derivatives/afni_proc_outs
 if ( ! -d $output_dir ) mkdir $output_dir
 
 set anat_dir = $top_dir/derivatives/fMRIPrep/$subj/anat
