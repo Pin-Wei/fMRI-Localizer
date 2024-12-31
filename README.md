@@ -27,7 +27,7 @@ The following outlines the procedures along with some footnotes.
    Execute 
    `bash Tidy_fmriprep_outs.sh $sid`, 
    `bash Make_timings.sh $sid`, and
-   `bash Modify_confounds.sh $sid`
+   `bash Modify_confounds.sh $sid`. 
    The purpose of each script can be known by its name.
 
 ## 5. Perform first-level analysis.
@@ -37,7 +37,7 @@ The following outlines the procedures along with some footnotes.
    + Useful discussion posts: https://discuss.afni.nimh.nih.gov/t/for-those-who-are-interested-in-using-fmriprep-output-as-input-for-afni-proc/7142
 
 ## 6. Intermediate steps before performing group-level analysis.
-   Execute `Merge_group_masks.sh` and optionally, `tcsh Gen_subj_list.sh`
+   Execute `Merge_group_masks.sh`, and optionally, `tcsh Gen_subj_list.sh`. 
    The purpose of these scripts can be known by their name.
    + '3dmask_tool': https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/programs/alpha/3dmask_tool_sphx.html#ahelp-3dmask-tool
    
