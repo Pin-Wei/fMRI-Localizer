@@ -50,7 +50,8 @@ data.loc[:, "Manip"] = data["Manip"].replace({
 data["X"] = data.iloc[:, 2:].sum(axis=1, numeric_only=True)
 data = data.sort_values(by=["codeManip", "X"])
 
-starting_time = list(data.query("Manip == 'repos'")["X"])[0]
+starting_time = list(data["X"])[0]
+# starting_time = list(data.query("Manip == 'repos'")["X"])[0]
 data["OnsetTime"] = (data["X"] - starting_time) / 1000
 
 data.drop(data.query("Manip == 'repos'").index, inplace=True)
